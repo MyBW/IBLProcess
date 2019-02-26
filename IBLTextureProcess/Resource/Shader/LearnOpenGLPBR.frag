@@ -1,7 +1,25 @@
-#version 430 core
-in vec2  UV; 
-in vec3  Normal;
-in vec3  Position;
+
+in vec2  PsUV; 
+in vec3  PsNormal;
+in vec3  PsPosition;
+
+#ifdef BaseColor_Texture
+uniform sampler2D BaseColorTexture;
+#else
+uniform vec3 PsBaseColor;
+#endif
+
+#ifdef Normal_Texture
+uniform sampler2D NormalTexture;
+#endif
+
+#ifdef Matrial_Texture
+uniform sampler2D MaterialTexture;
+uniform float Roughness;
+#else
+
+uniform float Metalic;
+#endif
 
 uniform samplerCube IBL_Specular_Light;
 uniform samplerCube Irradiance_Light;
@@ -10,30 +28,61 @@ uniform float CubemapMaxMip;
 uniform vec3 ViewPos;
 uniform vec3 LightPos;
 uniform vec3 LightColor;
-uniform sampler2D BaseColorTexture;
-uniform float Roughness;
-uniform float Specular;
-uniform float Metalic;
 uniform float Exposure;
+uniform float Specular;
 const float PI = 3.1415926 ;
 
-
-vec4 FromScreenToWorld(mat4 InViewInverse , vec2 ClipSpaceXY ,float InFov , float InPrjPlaneWInverseH,float InCameraDepth)
+vec3 GetBaseColor()
 {
-   vec2 Pos;
-   Pos.xy = ClipSpaceXY;
-   vec4 CameraSpacePos;
-   CameraSpacePos.x = Pos.x * InPrjPlaneWInverseH * tan(InFov/2.0f) * InCameraDepth;
-   CameraSpacePos.y = Pos.y * tan(InFov / 2.0f) * InCameraDepth;
-   CameraSpacePos.z = InCameraDepth;
-   CameraSpacePos.w = 1.0f;
-   return InViewInverse * CameraSpacePos;
+#ifdef BaseColor_Texture
+  vec3 BaseColor = pow(texture2D(BaseColorTexture, PsUV).rgb, vec3(2.2));
+#else
+  vec3 BaseColor = PsBaseColor;
+#endif
+return BaseColor;
 }
 
+vec3 GetNormal()
+{
+#ifdef Normal_Texture
+  vec3 tangentNormal = texture(NormalTexture, PsUV).xyz * 2.0 - 1.0;
+
+  vec3 Q1  = dFdx(PsPosition);
+  vec3 Q2  = dFdy(PsPosition);
+  vec2 st1 = dFdx(PsUV);
+  vec2 st2 = dFdy(PsUV);
+
+  vec3 N   = normalize(PsNormal);
+  vec3 T  = normalize(Q1*st2.t - Q2*st1.t);
+  vec3 B  = -normalize(cross(N, T));
+  mat3 TBN = mat3(T, B, N);
+
+  return normalize(TBN * tangentNormal);
+#else
+  vec3 Normal = PsNormal;
+  return normalize(Normal);
+#endif
+}
+
+vec3 GetMaterialValue()
+{
+#ifdef Matrial_Texture
+    vec3 MaterialData;
+    //MaterialData.bgr = texture2D(MaterialTexture, PsUV).rgb;
+    vec3 TempMaterial = texture2D(MaterialTexture, PsUV).rgb;
+    MaterialData[0] = TempMaterial[2];
+    MaterialData[1] = TempMaterial[1];
+#else
+    vec3 MaterialData;
+    MaterialData[0] = Metalic;
+    MaterialData[1] = Roughness;
+#endif
+    return MaterialData;
+}
 
 void ComputeAlbedoAndSpecular(in vec3 InBaseColor ,in float InMetalic ,in float InSpecular , out vec3 OutAlbedo, out vec3 OutSpecular)
 {
-    OutAlbedo = InBaseColor *( 1 - InMetalic) ;
+    OutAlbedo = InBaseColor *( 1.0 - InMetalic) ;
     float DielectircSpecular = mix(0.0 , 0.08 , InSpecular) ;
     OutSpecular = mix(vec3(DielectircSpecular) , InBaseColor , InMetalic) ;
 }
@@ -94,56 +143,6 @@ vec3  DotSH3RGB(FThreeBandSHVectorRGB A,FThreeBandSHVector B)
 	Result.b = DotSH3(A.B,B);
 	return Result;
 }
-
-
-
-FThreeBandSHVector SHBasisFunction3( vec3  InputVector)
-{
-	FThreeBandSHVector Result;
-
-	Result.V0.x = 0.282095f;
-	Result.V0.y = -0.488603f * InputVector.y;
-	Result.V0.z = 0.488603f * InputVector.z;
-	Result.V0.w = -0.488603f * InputVector.x;
-
-	vec3  VectorSquared = InputVector * InputVector;
-	Result.V1.x = 1.092548f * InputVector.x * InputVector.y;
-	Result.V1.y = -1.092548f * InputVector.y * InputVector.z;
-	Result.V1.z = 0.315392f * (3.0f * VectorSquared.z - 1.0f);
-	Result.V1.w = -1.092548f * InputVector.x * InputVector.z;
-	Result.V2 = 0.546274f * (VectorSquared.x - VectorSquared.y);
-
-	return Result;
-}
-FThreeBandSHVector CalcDiffuseTransferSH3( vec3 Normal, float  Exponent)
-{
-	FThreeBandSHVector Result = SHBasisFunction3(Normal);
-
-
-
-	float  L0 = 2 * PI / (1 + 1 * Exponent );
-	float  L1 = 2 * PI / (2 + 1 * Exponent );
-	float  L2 = Exponent * 2 * PI / (3 + 4 * Exponent + Exponent * Exponent );
-	float  L3 = (Exponent - 1) * 2 * PI / (8 + 6 * Exponent + Exponent * Exponent );
-
-
-	Result.V0.x *= L0;
-	Result.V0.yzw *= L1;
-	Result.V1.xyzw *= L2;
-	Result.V2 *= L2;
-
-	return Result;
-}
-
-
-
-float ComputeReflectionCaptureMipFromRoughness(float Roughness, float CubemapMaxMip)
-{
-   float LevelFrom1X1 = 1 - 1.2 * log2(Roughness);
-   return CubemapMaxMip - 1 - LevelFrom1X1;
-}
-
-
 vec3 ComputeDiffuseColor(vec3 BaseColor , float Metalic)
 {
   return BaseColor - BaseColor * Metalic;
@@ -191,31 +190,33 @@ vec3 fresnelSchlick(float cosTheta, vec3 F0)
 }
 void main()
 {
-   vec3 BaseColor = pow(texture2D(BaseColorTexture, UV).rgb, vec3(2.2));
-   vec3 WorldNormal = normalize(Normal) ;
-   vec3 DiffuseColor = ComputeDiffuseColor(BaseColor, Metalic);
+   vec3 BaseColor = GetBaseColor();
+   vec3 Normal = GetNormal() ;
+   vec3 MaterialValue = GetMaterialValue();
+   float Metalic = MaterialValue[0];
+   float Roughness = MaterialValue[1];
    vec3 SpecularColor = ComputeSpecularColor(BaseColor ,Specular ,Metalic) ;
-  
+   vec3 DiffuseColor = ComputeDiffuseColor(BaseColor, Metalic);
 
-   vec3 ViewDirection = normalize(ViewPos - Position.xyz);
-   vec3 R = reflect(-ViewDirection , WorldNormal) ;
-   float NoV = max(dot(WorldNormal , ViewDirection) , 0.0) ;
+   vec3 ViewDirection = normalize(ViewPos - PsPosition.xyz);
+   vec3 R = reflect(-ViewDirection , Normal) ;
+   float NoV = max(dot(Normal , ViewDirection) , 0.0) ;
    vec3 Lo;
    {
      // calculate per-light radiance
-        vec3 L = normalize(LightPos - Position);
+        vec3 L = normalize(LightPos - PsPosition);
         vec3 H = normalize(ViewDirection + L);
-        float distance = length(LightPos - Position);
+        float distance = length(LightPos - PsPosition);
         float attenuation = 1.0 / (distance * distance);
         vec3 radiance = LightColor * attenuation;
 
         // Cook-Torrance BRDF
-        float NDF = DistributionGGX(WorldNormal, H, Roughness);   
-        float G   = GeometrySmith(WorldNormal, ViewDirection, L, Roughness);    
+        float NDF = DistributionGGX(Normal, H, Roughness);   
+        float G   = GeometrySmith(Normal, ViewDirection, L, Roughness);    
         vec3 F    = fresnelSchlick(max(dot(H, ViewDirection), 0.0), SpecularColor);        
         
         vec3 nominator    = NDF * G * F;
-        float denominator = 4 * max(dot(WorldNormal, ViewDirection), 0.0) * max(dot(WorldNormal, L), 0.0) + 0.001; // 0.001 to prevent divide by zero.
+        float denominator = 4.0 * max(dot(Normal, ViewDirection), 0.0) * max(dot(Normal, L), 0.0) + 0.001; // 0.001 to prevent divide by zero.
         vec3 specular = nominator / denominator;
         
          // kS is equal to Fresnel
@@ -230,35 +231,31 @@ void main()
         kD *= 1.0 - Metalic;                 
             
         // scale light by NdotL
-        float NdotL = max(dot(WorldNormal, L), 0.0);        
+        float NdotL = max(dot(Normal, L), 0.0);        
 
         // add to outgoing radiance Lo
         Lo += (kD * BaseColor / PI + specular) * radiance * NdotL; // note that we already multiplied the BRDF by the Fresnel (kS) so we won't multiply by kS again
-        //Lo = vec3(NdotL);
+        //Lo = vec3(NoV);
     }
 
 
-   vec3 InF = fresnelSchlickRoughness(max(dot(WorldNormal , ViewDirection), 0.0) , SpecularColor , Roughness) ; 
-   
-   vec3 kS = InF;
+   vec3 F = fresnelSchlickRoughness(max(dot(Normal , ViewDirection), 0.0) , SpecularColor , Roughness) ;
+   vec3 kS = F;
    vec3 kD = 1.0 - kS;
-    kD *= 1.0 - Metalic;
    //IBL: Irradianc
-   vec3 irradiance = texture(Irradiance_Light, WorldNormal).rgb;
-   vec3 diffuse      = irradiance * BaseColor;
+   vec3 irradiance = texture(Irradiance_Light, Normal).rgb;
+   vec3 Diffuse      = irradiance * DiffuseColor;
 
    //IBL: Specluar
-   //float MipLevel = ComputeReflectionCaptureMipFromRoughness(Roughness , CubemapMaxMip);
    float MipLevel = Roughness * CubemapMaxMip;
-   vec3 InDirectLightSpecularPart1 = textureLod(IBL_Specular_Light, R , MipLevel).rgb ;
+   vec3 R = reflect(-ViewDirection, Normal);
+   vec3 EvnLighting = textureLod(IBL_Specular_Light, R , MipLevel).rgb ;
+   vec2 Brdf = textureLod(IBL_LUT, vec2(NoV , Roughness), 0.0).xy ; 
 
-   vec2 Brdf = texture(IBL_LUT, vec2(NoV , Roughness)).xy ; 
-   vec3 InDirectLightSpecularPart2 = InF * Brdf.x + Brdf.y ;
+   vec3 InDirectLightSpecular = EvnLighting * (F * Brdf.x + Brdf.y);
+   vec3 InDirectLight = (kD * Diffuse + InDirectLightSpecular);
 
-   vec3 InDirectLightSpecular = InDirectLightSpecularPart1 * InDirectLightSpecularPart2 ;
-   vec3 InDirectLight = (kD * diffuse + InDirectLightSpecular);
-
-   vec3 FinalColor = InDirectLight + Lo;
+   vec3 FinalColor = InDirectLight; //InDirectLight + Lo;
 
    // tonemap
    FinalColor = vec3(1.0) - exp(-FinalColor * Exposure);
