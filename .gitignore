@@ -1,0 +1,8 @@
+Debug/
+Release/
+RayTracing/Dependence/fbx/
+*.db
+*.bmp
+*.opensdf
+*.sdf
+*.opendb

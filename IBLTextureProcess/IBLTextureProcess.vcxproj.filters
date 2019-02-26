@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImageLoader">
+      <UniqueIdentifier>{a9aaa43e-f5a3-4fa6-ad33-9f5f6de4c292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{12efd9e4-5f11-4784-bbd5-461c1fd17f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealTimeRenderer">
+      <UniqueIdentifier>{c28eb4c7-47c1-40c7-a21e-55684d676766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{686c6208-54e2-4300-b708-eab68512d07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{2c033ba3-585c-49e8-a7c0-0701f096a988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjFileLoader">
+      <UniqueIdentifier>{34b8e7aa-7550-46e8-9b2d-d1874c0a30ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader\ImageLoader.cpp">
+      <Filter>ImageLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\BWStringOperation.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeRenderer\ShaderRead.cpp">
+      <Filter>RealTimeRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Object.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Camera.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\BWElement.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\BWPrimitive.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\RTMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeRenderer\GLSLProgram.cpp">
+      <Filter>RealTimeRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFileLoader\ObjFileLoader.cpp">
+      <Filter>ObjFileLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageLoader\ImageLoader.h">
+      <Filter>ImageLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\BWStringOperation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeRenderer\RealTimeRenderable.h">
+      <Filter>RealTimeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeRenderer\RealTimeRenderer.h">
+      <Filter>RealTimeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeRenderer\ShaderRead.h">
+      <Filter>RealTimeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Object.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Camera.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\BWElement.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\BWPrimitive.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RTMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeRenderer\GLSLProgram.h">
+      <Filter>RealTimeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFileLoader\ObjFileLoader.h">
+      <Filter>ObjFileLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RealTimeRenderer\RealTimeRenderable.inl">
+      <Filter>RealTimeRenderer</Filter>
+    </None>
+    <None Include="RealTimeRenderer\RealTimeRenderer.inl">
+      <Filter>RealTimeRenderer</Filter>
+    </None>
+  </ItemGroup>
+</Project>
