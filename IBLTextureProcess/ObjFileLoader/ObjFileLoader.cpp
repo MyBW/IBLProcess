@@ -1,4 +1,5 @@
 #include "ObjFileLoader.h"
+#include <fstream>
 std::vector<ObjFileLoader::ObjInfo> ObjFileLoader::OpenFile(std::string FileName)
 {
 	std::vector<ObjFileLoader::ObjInfo> ObjInfos;
@@ -80,4 +81,16 @@ std::vector<ObjFileLoader::ObjInfo> ObjFileLoader::OpenFile(std::string FileName
 		ObjInfos.push_back(CurrentInfo);
 	}
 	return ObjInfos;
+}
+
+bool ObjFileLoader::LoadMaterialDataFromFile(std::string FileName, std::vector<tinyobj::material_t>& Materials)
+{
+	std::map<std::string, int> MaterialMap;
+	std::string warn;
+	std::string err;
+	std::ifstream is;
+	is.open(FileName, std::ios::binary);
+	tinyobj::LoadMtl(&MaterialMap, &Materials, &is, &warn, &err);
+	is.close();
+	return true;
 }

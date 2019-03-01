@@ -20,6 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ImageLoader\ImageLoader.cpp" />
+    <ClCompile Include="JsonLoader\JsonLoader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Math\BWElement.cpp" />
     <ClCompile Include="Math\BWPrimitive.cpp" />
@@ -29,10 +32,16 @@
     <ClCompile Include="RealTimeRenderer\ShaderRead.cpp" />
     <ClCompile Include="Scene\Camera.cpp" />
     <ClCompile Include="Scene\Object.cpp" />
+    <ClCompile Include="TestUnit\TestUnit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Util\BWStringOperation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ImageLoader\ImageLoader.h" />
+    <ClInclude Include="JsonLoader\JsonLoader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Math\BWElement.h" />
     <ClInclude Include="Math\BWPrimitive.h" />
     <ClInclude Include="Math\RTMath.h" />
@@ -43,6 +52,9 @@
     <ClInclude Include="RealTimeRenderer\ShaderRead.h" />
     <ClInclude Include="Scene\Camera.h" />
     <ClInclude Include="Scene\Object.h" />
+    <ClInclude Include="TestUnit\TestUnit.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Util\BWStringOperation.h" />
   </ItemGroup>
   <ItemGroup>
@@ -120,13 +132,15 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>Dependence\OpenGL\GLHead;Dependence\FreeImage;Dependence\tinyobj\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Dependence\jsoncpp-1.8.4\include;Dependence\OpenGL\GLHead;Dependence\FreeImage;Dependence\tinyobj\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>Dependence\OpenGL\GLlIB&amp;DLL;Dependence\FreeImage;Dependence\tinyobj\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>FreeImage.lib;glew32.lib;tinyobjloader.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Dependence\jsoncpp-1.8.4\lib\x64\Debug;Dependence\OpenGL\GLlIB&amp;DLL;Dependence\FreeImage;Dependence\tinyobj\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;glew32.lib;tinyobjloader.lib;lib_json.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -135,12 +149,15 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Dependence\jsoncpp-1.8.4\include;Dependence\OpenGL\GLHead;Dependence\FreeImage;Dependence\tinyobj\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>FreeImage.lib;glew32.lib;tinyobjloader.lib;lib_json.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Dependence\jsoncpp-1.8.4\lib\x64\Debug;Dependence\OpenGL\GLlIB&amp;DLL;Dependence\FreeImage;Dependence\tinyobj\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

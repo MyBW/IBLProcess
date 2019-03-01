@@ -1,0 +1,2074 @@
+newmtl 204J0208
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204J0208.png
+
+newmtl 204J0209
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 0
+	Pm 1
+	map_Kd map\204J0209.png
+
+newmtl 204J0029
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204J0029_BaseColor.png
+	map_Pr map\Demoscene_204J0029_Roughness.png
+	map_Pm map\Demoscene_204J0029_Metallic.png
+
+newmtl 204J0030
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl 204J0001
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204J0001.png
+
+newmtl 204J0034
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl 204J0210
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204J0210.png
+
+newmtl 204J0211
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204J0211.png
+
+newmtl 204M0070
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0070.png
+
+newmtl 204M0004
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514278_BaseColor.png
+
+newmtl 204M0003
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 0.72
+	Pm 0
+	map_Kd map\Demoscene_204M0003_BaseColor.png
+	map_Pm map\Demoscene_204M0003_Metallic.png
+
+newmtl 204M0009
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0009.png
+
+newmtl 204M0071
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0071.png
+
+newmtl 204M0005
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514278_BaseColor.png
+
+newmtl 204M0006
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514278_BaseColor.png
+	map_Pr map\Demoscene_Material__249514278_Roughness.png
+	map_Pm map\Demoscene_Material__249514278_Metallic.png
+
+newmtl 204M0012
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0012.png
+
+newmtl 204M0015
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0015_BaseColor.png
+	map_Pr map\Demoscene_204M0015_Roughness.png
+	map_Pm map\Demoscene_204M0015_Metallic.png
+
+newmtl 204M0077
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0077.png
+
+newmtl 204M0064
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0064_BaseColor.png
+	map_Pr map\Demoscene_204M0064_Roughness.png
+	map_Pm map\Demoscene_204M0064_Metallic.png
+
+newmtl 204M0067
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0067_BaseColor.png
+
+newmtl 204M0078
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0078_BaseColor.png
+	map_Pr map\Demoscene_204M0078_Roughness.png
+	map_Pm map\Demoscene_204M0078_Metallic.png
+
+newmtl 204M0063
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0063_BaseColor.png
+	map_Pr map\Demoscene_204M0063_Roughness.png
+	map_Pm map\Demoscene_204M0063_Metallic.png
+
+newmtl 204M0073
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0073_BaseColor.png
+	map_Pr map\Demoscene_204M0073_Roughness.png
+	map_Pm map\Demoscene_204M0073_Metallic.png
+
+newmtl 204M0038
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0038_BaseColor.png
+	map_Pr map\Demoscene_204M0038_Roughness.png
+	map_Pm map\Demoscene_204M0038_Metallic.png
+
+newmtl 204M0074
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0074_BaseColor.png
+	map_Pr map\Demoscene_204M0074_Roughness.png
+	map_Pm map\Demoscene_204M0074_Metallic.png
+
+newmtl 204M0034
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0043.png
+
+newmtl 204M0035
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0035.png
+
+newmtl 204M0046
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0046_BaseColor.png
+	map_Pr map\Demoscene_204M0046_Roughness.png
+	map_Pm map\Demoscene_204M0046_Metallic.png
+
+newmtl 204M0047
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0047_BaseColor.png
+	map_Pr map\Demoscene_204M0047_Roughness.png
+	map_Pm map\Demoscene_204M0047_Metallic.png
+
+newmtl 204M0048
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0048_BaseColor.png
+	map_Pr map\Demoscene_204M0048_Roughness.png
+	map_Pm map\Demoscene_204M0048_Metallic.png
+
+newmtl 204M0049
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0049_BaseColor.png
+	map_Pr map\Demoscene_204M0049_Roughness.png
+	map_Pm map\Demoscene_204M0049_Metallic.png
+
+newmtl 204M0052
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0052_BaseColor.png
+	map_Pr map\Demoscene_204M0052_Roughness.png
+	map_Pm map\Demoscene_204M0052_Metallic.png
+
+newmtl 204M0053
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0053_BaseColor.png
+	map_Pr map\Demoscene_204M0053_Roughness.png
+	map_Pm map\Demoscene_204M0053_Metallic.png
+
+newmtl 204M0072
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0072_BaseColor.png
+	map_Pr map\Demoscene_204M0072_Roughness.png
+	map_Pm map\Demoscene_204M0072_Metallic.png
+
+newmtl 204M0041
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0041.png
+
+newmtl 204M0055
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0055_BaseColor.png
+	map_Pr map\Demoscene_204M0055_Roughness.png
+	map_Pm map\Demoscene_204M0055_Metallic.png
+
+newmtl 204M0054
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0054_BaseColor.png
+	map_Pr map\Demoscene_204M0054_Roughness.png
+	map_Pm map\Demoscene_204M0054_Metallic.png
+
+newmtl 204M0068
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl 204M0056
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0056.png
+
+newmtl 204M0057
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0057.png
+
+newmtl 204M0058
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0058.png
+
+newmtl 204M0079
+	Ns 10
+	Ni 1.5
+	d 0.5
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0.5
+	map_Kd map\204M0079.png
+
+newmtl 204M0036
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0036.png
+
+newmtl 204M0037
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl 204M0039
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl 204M0040
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0040.png
+
+newmtl 204M0042
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0042.png
+
+newmtl 204M0043
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0043.png
+
+newmtl 204M0044
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0044.png
+
+newmtl 204M0045
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0045.png
+
+newmtl 204M0089
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0089.png
+
+newmtl 204M0090
+	Ns 10
+	Ni 1.5
+	d 0.5
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 0
+	Pm 0
+	map_Kd map\204M0090.png
+
+newmtl 204M0091
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0091_BaseColor.png
+	map_Pr map\Demoscene_204M0091_Roughness.png
+	map_Pm map\Demoscene_204M0091_Metallic.png
+
+newmtl 204M0092
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0092.png
+
+newmtl 204J0529
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 0.5
+	Pm 1
+	map_Kd map\204J0529.png
+
+newmtl GG_SX_001
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 0.61
+	Pm 0
+	map_Kd map\GG_SX_001_basecolor.png
+	map_Pr map\GG_SX_001_roughness.png
+	map_Pm map\GG_SX_001_roughness.png
+
+newmtl mad020
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0006.png
+
+newmtl MCL01002
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl HCL010019
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0008.png
+
+newmtl MCL01001
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0011.png
+
+newmtl aa004
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0013.png
+
+newmtl aa003
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0015.png
+
+newmtl MCL01023
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0004.png
+
+newmtl MCL01028
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0064.png
+
+newmtl MCL01027
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0023.png
+
+newmtl aa018
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl aa027
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0015.png
+
+newmtl GG_LZ_022
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0004.png
+
+newmtl GG_LZ_021
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0004.png
+
+newmtl MCL01018
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0111.png
+
+newmtl MCL01029
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0013.png
+
+newmtl aa061
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0015.png
+
+newmtl aa062
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0083.png
+
+newmtl 204X0001
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl DL_gm_004
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0111.png
+
+newmtl aa001
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0036.png
+
+newmtl Material__7256
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\QDDL0004.png
+
+newmtl GM29_XP_01_025
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_026
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_027
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_028
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_029
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_010
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_037
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_011
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl Material__153
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_013
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_014
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_016
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_017
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_031
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl GM29_XP_01_195
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl Material__129
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl Material__141
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl Material__249503800
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl denggan
+	Ns 27
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.4667 0.4588 0.4157
+	Kd 0.2667 0.251 0.1961
+	Ks 0.792 0.792 0.792
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl LED
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl wang
+	Ns 18
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0.486 0.486 0.486
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl deng
+	Ns 32
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1569 0.4 0.5529
+	Kd 0.1569 0.4 0.5529
+	Ks 0.549 0.549 0.549
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl jinshu_hui
+	Ns 33
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.6588 0.6588 0.6588
+	Kd 0.6588 0.6588 0.6588
+	Ks 0.621 0.621 0.621
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl jinshu_lan
+	Ns 38
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.4588 0.5451 0.5922
+	Kd 0.4588 0.5451 0.5922
+	Ks 0.621 0.621 0.621
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl diban
+	Ns 40
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.7333 0.6196 0.3137
+	Kd 0.8667 0.8118 0.6588
+	Ks 0.3813 0.3732 0.3507
+	Ke 0 0 0
+	Pr 0.33
+	Pm 0
+	map_Kd map\muban_BaseColor.png
+
+newmtl qiang
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.902 0.902 0.902
+	Kd 0.902 0.902 0.902
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0015.png
+
+newmtl jinshukuang
+	Ns 33
+	Ni 1.5
+	d 0.9
+	Tr 0.1
+	Tf 0.9 0.9 0.9
+	illum 2
+	Ka 0.0078 0.0078 0.0196
+	Kd 0.0078 0.0078 0.0196
+	Ks 0.414 0.414 0.414
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl louban
+	Ns 32
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 1
+	Ks 0.32 0.32 0.32
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_louban_BaseColor.png
+	map_Pr map\Demoscene_louban_Roughness.png
+	map_Pm map\Demoscene_louban_Metallic.png
+
+newmtl shuiniqiang
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.7333 0.0784 0.0784
+	Kd 0.7333 0.0784 0.0784
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0059.png
+
+newmtl muwen
+	Ns 23
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0 0 0
+	Kd 0.8392 0.8118 0.6118
+	Ks 0.1627 0.16 0.1547
+	Ke 0.0336 0.0325 0.0245
+	Pr 0
+	Pm 1
+	map_Kd map\Demoscene_204J0030_BaseColor.png
+
+newmtl loutifushouo
+	Ns 29
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.7961 0.7961 0.7961
+	Kd 0.7961 0.7961 0.7961
+	Ks 0.72 0.72 0.72
+	Ke 0 0 0
+	Pr 0.08
+	Pm 1
+
+newmtl chuangkuang
+	Ns 45
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.3804 0.4 0.4078
+	Kd 0.3804 0.4 0.4078
+	Ks 0.675 0.675 0.675
+	Ke 0 0 0
+	Pr 0.22
+	Pm 1
+	map_Kd map\Demoscene_aa004_BaseColor.png
+
+newmtl louti
+	Ns 21
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.7373 0.6627 0.5333
+	Kd 0.9725 0.9451 0.8784
+	Ks 0.2092 0.2034 0.1919
+	Ke 0 0 0
+	Pr 0.02
+	Pm 0.23
+	map_Kd map\QDDL0006.png
+
+newmtl jinshuyandao
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.902 0.902 0.902
+	Kd 0.902 0.902 0.902
+	Ks 0.342 0.342 0.342
+	Ke 0 0 0
+	Pr 0.18
+	Pm 1
+	map_Kd map\Demoscene_204J0210_BaseColor.png
+
+newmtl glass
+	Ns 50
+	Ni 1
+	d 0.35
+	Tr 0.65
+	Tf 0.35 0.35 0.35
+	illum 2
+	Ka 0.298 0.3137 0.3373
+	Kd 0.298 0.3137 0.3373
+	Ks 0.747 0.747 0.747
+	Ke 0 0 0
+	Pr 0
+	Pm 0.32
+	map_Kd map\204M0091.png
+
+newmtl jinshu
+	Ns 28
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1922 0.2471 0.3412
+	Kd 0.1922 0.2471 0.3412
+	Ks 0.675 0.675 0.675
+	Ke 0 0 0
+	Pr 0.25
+	Pm 1
+	map_Kd map\Demoscene_204J0030_BaseColor.png
+
+newmtl Material__249514476
+	Ns 34
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1451 0.1451 0.1451
+	Kd 0.1451 0.1451 0.1451
+	Ks 0.693 0.693 0.693
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514476_BaseColor.png
+	map_Pr map\Demoscene_Material__249514476_Roughness.png
+	map_Pm map\Demoscene_Material__249514476_Metallic.png
+
+newmtl Material__249514249
+	Ns 39
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.2431 0.2706 0.4
+	Kd 0.2431 0.2706 0.4
+	Ks 0.603 0.603 0.603
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514249_BaseColor.png
+	map_Pr map\Demoscene_Material__249514249_Roughness.png
+	map_Pm map\Demoscene_Material__249514249_Metallic.png
+
+newmtl Material__249514244
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514244_BaseColor.png
+	map_Pr map\Demoscene_Material__249514244_Roughness.png
+	map_Pm map\Demoscene_Material__249514244_Metallic.png
+
+newmtl Material__249514246
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_A_lou_qiang_BaseColor.png
+	map_Pr map\Demoscene_A_lou_qiang_Roughness.png
+	map_Pm map\Demoscene_A_lou_qiang_Metallic.png
+
+newmtl Material__249514475
+	Ns 34
+	Ni 1.5
+	d 0.5
+	Tr 0.02
+	Tf 0.98 0.98 0.98
+	illum 2
+	Ka 0.3373 0.6392 0.851
+	Kd 0.3373 0.6392 0.851
+	Ks 0.882 0.882 0.882
+	Ke 0 0 0
+	Pr 0
+	Pm 0.7
+	map_Kd map\Demoscene_Material__249513160_BaseColor.png
+
+newmtl Material__249514251
+	Ns 34
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1451 0.1451 0.1451
+	Kd 0.1451 0.1451 0.1451
+	Ks 0.693 0.693 0.693
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514251_BaseColor.png
+	map_Pr map\Demoscene_Material__249514251_Roughness.png
+	map_Pm map\Demoscene_Material__249514251_Metallic.png
+
+newmtl Material__249514252
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514252_BaseColor.png
+	map_Pr map\Demoscene_Material__249514252_Roughness.png
+	map_Pm map\Demoscene_Material__249514252_Metallic.png
+
+newmtl Material__249514472
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204J2008.png
+
+newmtl Material__249514253
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514253_BaseColor.png
+	map_Pr map\Demoscene_Material__249514253_Roughness.png
+	map_Pm map\Demoscene_Material__249514253_Metallic.png
+
+newmtl Material__249514473
+	Ns 34
+	Ni 1.5
+	d 0.7
+	Tr 0.3
+	Tf 0.7 0.7 0.7
+	illum 2
+	Ka 0.7961 0.7961 0.7961
+	Kd 0.7961 0.7961 0.7961
+	Ks 0.882 0.882 0.882
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+
+newmtl Material__249514551
+	Ns 34
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.2196 0.2196 0.2353
+	Kd 0.2196 0.2196 0.2353
+	Ks 0.693 0.693 0.693
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514251_BaseColor.png
+	map_Pr map\Demoscene_Material__249514251_Roughness.png
+	map_Pm map\Demoscene_Material__249514251_Metallic.png
+
+newmtl Material__249514278
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514278_BaseColor.png
+
+newmtl 204J0790
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204J0790_BaseColor.png
+	map_Pr map\Demoscene_204J0790_Roughness.png
+	map_Pm map\Demoscene_204J0790_Metallic.png
+
+newmtl 204M0075
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_204M0075_BaseColor.png
+	map_Pr map\Demoscene_204M0075_Roughness.png
+	map_Pm map\Demoscene_204M0075_Metallic.png
+
+newmtl A_lou_chuangkuang
+	Ns 39
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.2431 0.2706 0.4
+	Kd 0.2431 0.2706 0.4
+	Ks 0.603 0.603 0.603
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_A_lou_chuangkuang_BaseColor.png
+	map_Pr map\Demoscene_A_lou_chuangkuang_Roughness.png
+	map_Pm map\Demoscene_A_lou_chuangkuang_Metallic.png
+
+newmtl Material__249513159
+	Ns 39
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.2196 0.2549 0.3608
+	Kd 0.2196 0.2549 0.3608
+	Ks 0.603 0.603 0.603
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_Material__249514251_BaseColor.png
+	map_Pr map\Demoscene_Material__249514251_Roughness.png
+	map_Pm map\Demoscene_Material__249514251_Metallic.png
+
+newmtl Material__249513164
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204J0001.png
+
+newmtl Material__249513165
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\204M0046.png
+
+newmtl A_lou_qiang
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\Demoscene_A_lou_qiang_BaseColor.png
+	map_Pr map\Demoscene_A_lou_qiang_Roughness.png
+	map_Pm map\Demoscene_A_lou_qiang_Metallic.png
+
+newmtl Material__249513160
+	Ns 34
+	Ni 1.5
+	d 0.6
+	Tr 0.02
+	Tf 0.98 0.98 0.98
+	illum 2
+	Ka 0.3373 0.6392 0.851
+	Kd 0.3373 0.6392 0.851
+	Ks 0.882 0.882 0.882
+	Ke 0 0 0
+	Pr 0
+	Pm 1
+	map_Kd map\Demoscene_Material__249513160_BaseColor.png
+
+newmtl Material__249513166
+	Ns 10
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.588 0.588 0.588
+	Kd 0.588 0.588 0.588
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\T2040011.png
+
+newmtl bark_pine_wh
+	Ns 0
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0 0 0
+	Kd 0.8902 0.8824 0.8706
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\bark_pine_wh.png
+
+newmtl ast5
+	Ns 0
+	Ni 1.5
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0 0 0
+	Kd 1 1 1
+	Ks 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	map_Kd map\ast5.png
+

@@ -8,6 +8,7 @@
 #include "RealTimeRenderer\GLSLProgram.h"
 #include "RealTimeRenderer\ShaderRead.h"
 #include "ObjFileLoader\ObjFileLoader.h"
+#include "TestUnit\TestUnit.h"
 ImageFile *Img;
 ImageFile *SubImage;
 ImageLoader IMGLoader;
@@ -276,6 +277,13 @@ void moueMoveFunction(int button, int state, int x, int y)
 }
 int main(int argc, char **argv)
 {
+
+
+	//Test Unit
+	CoverShapesparkJsonToObjMtl CoverTest;
+	CoverTest.Test();
+	return 0;
+
 
 	auto CreateFileName = [](std::string &FileName, int Index1, int Index2)
 	{

@@ -38,7 +38,7 @@ public:
 
 	//void ProcessCubeMap(GLuint CubeMap, int CubemapLength, GLenum SrcPF, GLenum DestPF, GLenum PixelEleType, int MaxRoughtnessLevel, std::function<void(int, GLenum, GLenum, int , int )> FinalProcess);
 	void ProcessCubeMap(GLuint CubeMap, int CubemapLength, GLenum SrcPF, GLenum DestPF, GLenum PixelEleType, int MaxRoughtnessLevel,
-		std::function<void(GLenum , GLenum , GLenum , float , int)> BeginProcess,
+		std::function<void(GLenum, GLenum, GLenum, float, int)> BeginProcess,
 		std::function<void(GLenum, GLenum, GLenum, float, int)> EndProcess,
 		std::function<void(GLenum , GLenum , GLenum , float , float , int )> ForBeginProcessMipmaplevel,
 		std::function<void(GLenum, GLenum, GLenum, float, float, int)> ForEndProcessMipmaplevel,

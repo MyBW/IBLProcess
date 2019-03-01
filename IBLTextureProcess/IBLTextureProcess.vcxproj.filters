@@ -31,6 +31,12 @@
     <Filter Include="ObjFileLoader">
       <UniqueIdentifier>{34b8e7aa-7550-46e8-9b2d-d1874c0a30ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JsonLoader">
+      <UniqueIdentifier>{686bffe9-89c8-4125-b8c4-d86754e7635b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestUnit">
+      <UniqueIdentifier>{ebbad5a8-fa6c-42b5-8e35-127fe2f470d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -65,6 +71,12 @@
     </ClCompile>
     <ClCompile Include="ObjFileLoader\ObjFileLoader.cpp">
       <Filter>ObjFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="TestUnit\TestUnit.cpp">
+      <Filter>TestUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonLoader\JsonLoader.cpp">
+      <Filter>JsonLoader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +115,12 @@
     </ClInclude>
     <ClInclude Include="ObjFileLoader\ObjFileLoader.h">
       <Filter>ObjFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="TestUnit\TestUnit.h">
+      <Filter>TestUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonLoader\JsonLoader.h">
+      <Filter>JsonLoader</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

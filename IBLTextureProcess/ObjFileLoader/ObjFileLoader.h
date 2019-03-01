@@ -25,4 +25,5 @@ public:
 		}
 	};
 	std::vector<ObjInfo> OpenFile(std::string FileName);
+	bool LoadMaterialDataFromFile(std::string FileName, std::vector<tinyobj::material_t>& Materials);
 };
